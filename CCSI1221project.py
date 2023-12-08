@@ -49,7 +49,7 @@ class Game:
     def create_widgets(self):
         ### SAVE AND OPEN SAVE FILE BUTTONS ###
         self.open_save_button = tk.Button(self.window, text="Open save file", background='#8EAF9D', activebackground='#8EAF9D', relief='flat', border=1, padx=0, pady=0, anchor="nw")
-        self.open_save_button.place(relx = 1, x =-2, y = 0, anchor = "ne")
+        self.open_save_button.place(relx = 1, anchor = "ne")
         self.open_save_button['command'] = self.save_open
         
         self.save_to_button = tk.Button(self.window, text="Save to file", background='#8EAF9D', activebackground='#8EAF9D', relief='flat', border=1, padx=0, pady=0, anchor="ne")
