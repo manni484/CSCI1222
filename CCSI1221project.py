@@ -24,7 +24,7 @@ class Game:
         ### WINDOW SET UP ###
         self.window = tk.Tk()
         self.window.title("Gambling Game")
-        self.window.iconbitmap('C:\Homework\Final Project\iconver2(1).ico')
+        #self.window.iconbitmap('C:\Homework\Final Project\iconver2(1).ico')
         #self.window.iconbitmap('iconver2(1).ico')
         self.window.geometry("400x300") # Set window lenth and height
         self.window.configure(bg='#A6D8D4') # Set window background
